@@ -15,7 +15,6 @@ class Search extends React.Component {
 
     makeBook = bookData => {
         return {
-            _id: bookData.id,
             title: bookData.volumeInfo.title,
             authors: bookData.volumeInfo.authors,
             description: bookData.volumeInfo.description,
