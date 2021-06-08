@@ -9,10 +9,7 @@ class Search extends React.Component {
         books: []
     };
 
-    componentDidMount() {
-        this.searchBook();
-    }
-
+   
     makeBook = bookData => {
         return {
             title: bookData.volumeInfo.title,
